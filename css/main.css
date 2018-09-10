@@ -2324,6 +2324,10 @@ color: #ffff;
   line-height: 1.15em;
   margin-bottom: 30px;
 }
+.info-area .info-content p {
+color: #191919;
+}
+
 
 .info-area .info-content .meta {
   color: #222;
@@ -2482,6 +2486,9 @@ color: #ffff;
 padding: 30px 20px 10px 20px;
 text-align: justify;
 }
+.owners p{
+color: #191919;
+  }
 .faq-area {
   background: #fff;
 }
@@ -2693,7 +2700,9 @@ h6 {
   color: #fff;
   font-size: 12px;
 }
-
+.single-footer-widget p {
+color: #cccccc;
+}
 .single-footer-widget .info.valid {
   color: green;
 }
