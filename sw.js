@@ -3,7 +3,10 @@ var filesToCache = [
   './',
   './index.html',
   './css/main.css',
-  './js/main.js'
+  './js/main.js',
+  './contact.html',
+  './careers.html',
+  './faq.html'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
