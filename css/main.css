@@ -1868,6 +1868,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 20px;
 }
 
+.cpy{
+  color: #ffffff;
+}
+
 @media (max-width: 992px) {
   .navbar-nav {
     height: auto;
@@ -1943,13 +1947,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-gap-bus{
   background-color: #f9f9ff;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 30px;
 }
 
 .section-gap-owner {
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.section-gap-cont{
+  padding-top: 0px;
+  padding-bottom: 30px;
   padding-right: 0;
   padding-left: 0;
 }
@@ -2151,6 +2162,10 @@ color: #ffff;
 
 .dropdown-menu a {
   padding: 5px 15px;
+}
+.dropdown-menu a i{
+  margin-right:5px !important;
+
 }
 
 @media (max-width: 767px) {
@@ -2405,6 +2420,7 @@ color: #ffff;
 .single-feature {
   background-color: #f9f9ff;
   padding: 30px 30px 15px 30px;
+  min-height: 150px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2531,11 +2547,17 @@ text-align: justify;
   line-height: 24px;
 }
 
-.video-area {
+.webp .video-area {
+  padding: 200px 0 60px 0;
+  position: relative;
+  background: url(../img/Countries/qatar.webp) no-repeat center center/cover;
+}
+.no-webp .video-area {
   padding: 200px 0 60px 0;
   position: relative;
   background: url(../img/Countries/qatar.png) no-repeat center center/cover;
 }
+
 
 .video-area .overlay-bg {
   opacity: .6;
@@ -2574,6 +2596,11 @@ text-align: justify;
   text-align: center;
 }
 
+.sfmap:hover{
+  background: url(../img/sfcmap.png) no-repeat center center/cover;
+  background-color: #000;
+  
+}
 .single-contact-info h6 {
   text-transform: uppercase;
 }
@@ -2600,7 +2627,7 @@ text-align: justify;
 
 .footer-area {
   padding-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   background-color: #222222;
 }
 
@@ -2756,23 +2783,73 @@ h6 {
   background-position: center ;
   background-size: cover;
 }
-.qatar_single  {
+
+/* Single pages cover with multiple img extention support */
+.webp .qatar_single  {
+  background: url(../img/Countries/qatar_single.webp) no-repeat center center/cover;
+}
+.webp .uae_single  {
+  background: url(../img/Countries/uae_single.webp) no-repeat center center/cover;
+}
+.webp .bahrain_single  {
+  background: url(../img/Countries/bahrain_single.webp) no-repeat center center/cover;
+}
+.webp .oman_single  {
+  background: url(../img/Countries/oman_single.webp) no-repeat center center/cover;
+}
+.webp .careers_single  {
+  background: url(../img/Countries/careers_single.webp) no-repeat center center/cover;
+}
+.webp .faq_single{
+  background: url(../img/Countries/faq_single.webp) no-repeat center center/cover;
+}
+
+.no-webp .qatar_single  {
   background: url(../img/Countries/qatar_single.png) no-repeat center center/cover;
 }
-.uae_single  {
+.no-webp .uae_single  {
   background: url(../img/Countries/uae_single.png) no-repeat center center/cover;
 }
-.bahrain_single  {
+.no-webp .bahrain_single  {
   background: url(../img/Countries/bahrain_single.png) no-repeat center center/cover;
 }
-.oman_single  {
+.no-webp .oman_single  {
   background: url(../img/Countries/oman_single.png) no-repeat center center/cover;
 }
-.careers_single  {
+.no-webp .careers_single  {
   background: url(../img/Countries/careers_single.png) no-repeat center center/cover;
 }
-.faq_single  {
+.no-webp .faq_single  {
   background: url(../img/Countries/faq_single.png) no-repeat center center/cover;
+}
+
+
+/* main index page slider with multiple img extention support */
+.webp .sl-qatar  {
+  background: url(../img/Countries/qatar.webp) no-repeat center center/cover;
+}
+.webp .sl-uae  {
+  background: url(../img/Countries/uae.webp) no-repeat center center/cover;
+}
+.webp .sl-bahrain  {
+  background: url(../img/Countries/bahrain.webp) no-repeat center center/cover;
+}
+.webp .sl-oman  {
+  background: url(../img/Countries/oman.webp) no-repeat center center/cover;
+}
+
+
+.no-webp .sl-qatar {
+  background: url(../img/Countries/qatar.png) no-repeat center center/cover;
+}
+.no-webp .sl-uae {
+  background: url(../img/Countries/uae.png) no-repeat center center/cover;
+}
+.no-webp .sl-bahrain {
+  background: url(../img/Countries/bahrain.png) no-repeat center center/cover;
+}
+.no-webp .sl-oman {
+  background: url(../img/Countries/oman.png) no-repeat center center/cover;
 }
 
 
@@ -2818,6 +2895,10 @@ h6 {
 
 .about-generic-area p {
   margin-bottom: 20px;
+}
+
+.ansar_group_bg{
+  background-image: url(../img/ansargroup/ansar_group_logo_background_1_1200x1000.png)
 }
 
 .white-bg {
@@ -2887,3 +2968,44 @@ h6 {
   background: url(../img/minus.png)   no-repeat;
 }
 
+
+/* FLAGS */
+.em,
+.em-svg {
+    height: 1.5em;
+    width: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.em-flag-qa {
+    background-image: url("../img/flags/1f1f6-1f1e6.png")
+}
+
+
+.em-flag-ae {
+    background-image: url("../img/flags/1f1e6-1f1ea.png")
+}
+
+.em-flag-bh {
+    background-image: url("../img/flags/1f1e7-1f1ed.png")
+}
+
+.em-flag-om {
+    background-image: url("../img/flags/1f1f4-1f1f2.png")
+}
+
+.flags a{
+    padding-right: 12px ;
+}
+
+.flags a :hover{
+    opacity: 0.5 ;
+}
+
+.dropdown-menu i{
+  font-size: 10px ;
+}

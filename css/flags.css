@@ -1,0 +1,36 @@
+.em,
+.em-svg {
+    height: 1.5em;
+    width: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle
+}
+.em-flag-qa {
+    background-image: url("../img/flags/1f1f6-1f1e6.png")
+}
+
+
+.em-flag-ae {
+    background-image: url("../img/flags/1f1e6-1f1ea.png")
+}
+
+.em-flag-bh {
+    background-image: url("../img/flags/1f1e7-1f1ed.png")
+}
+
+
+.em-flag-om {
+    background-image: url("../img/flags/1f1f4-1f1f2.png")
+}
+
+.flags a{
+    padding-right: 12px !important;
+}
+.flags a :hover{
+    opacity: 0.5 !important;
+
+}
+    

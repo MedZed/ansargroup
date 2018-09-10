@@ -24,7 +24,7 @@
 	<meta name="msapplication-config" content="/img/fav/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Site Title -->
-		<title>Ansar Group</title>
+	<title>Ansar Group</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!-- CSS -->
@@ -57,8 +57,8 @@
 									<li><a href="index.html#about">About</a></li>
 									<li><a href="index.html#business">Businesses</a></li>
 									<li><a href="faq.html">faq</a></li>
-									<li><a href="#careers">Careers</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="careers.html">Careers</a></li>
+									<li><a href="#contact">Contact</a></li>
 									
 									<!-- Dropdown -->
 									<li class="dropdown">
@@ -79,12 +79,14 @@
 					</nav>
 				</header>
 			<!-- End Header Area -->	
+
+
 				<div class="container">
 					<div class="row height align-items-center justify-content-center">
 						<div class="col-lg-10">
 							<div class="generic-banner-content">
-								<h1 class="text-white">Careers</h1>
-								<p class="text-white">Together with Ansar Group</p>
+								<h1 class="text-white">Contacts</h1>
+								<p class="text-white">Don't hesitate to contact us if you have any further questions</p>
 							</div>							
 						</div>
 					</div>
@@ -92,35 +94,80 @@
 			</section>		
 			<!-- End banner Area -->
 
-	<!-- start contact Area -->
-	<section class="contact-area section-gap" id="careers">
+	<!-- Start faq Area -->
+	<section class="faq-area section-gap-fact">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h4>Just drop us your Resume, Remember to mention your position.</h4><br>
-				</div>
-				
-			</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-phone-handset"></span>
+									<h4><a href="#">Phone</a></h4>
+								</div>
+								<p>
+									+974 (4) 4486000
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-3 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-printer"></span>
+									<h4><a href="#">Fax</a></h4>
+								</div>
+								<p>
+									+974 (4) 0174985
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-3 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-envelope"></span>
+									<h4><a href="#">Email</a></h4>
+								</div>
+								<p style="font-size: 13px;">
+									agbreception@ansargallery.com
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-3 col-md-6 ">
+							<div class="single-feature mb-30 sfmap">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-map-marker"></span>
+									<h4><a href="#">Location</a></h4>
+								</div>
+								<p>
+									Barwa Commercial Avenue<br>Abu Hammour, P.O Box: 3726
+								</p>							
+							</div>							
+						</div>											
+					</div>
+		</div>
+	</section>
+	<!-- End faq Area -->
+
+
+	<!-- start contact Area -->
+	<section class="contact-area section-gap-cont" id="contact">
+		<div class="container">
 			<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
 				<div class="row">
 					<div class="col-lg-6 form-group">
 						<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
 						    class="common-input mb-20 form-control" required="" type="text">
 
-						<input name="email" placeholder="Enter your email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-						    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" class="common-input mb-20 form-control"
+						<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+						    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
 						    required="" type="email">
 
-						<input name="subject" placeholder="Enter your mobile" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your mobile'"
-						    class="common-input mb-20 form-control" required="" type="text">
-						<input name="subject" placeholder="Enter your position" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your position'"
+						<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'"
 						    class="common-input mb-20 form-control" required="" type="text">
 					</div>
 					<div class="col-lg-6 form-group">
-						<input type="file" name="Resume" accept="application/pdf,application/vnd.ms-excel" class="common-input mb-20 form-control" required="" type="text">
-						<textarea class="common-textarea mt-10 form-control" name="letter" placeholder="Cover Letter" onfocus="this.placeholder = ''"
-						    onblur="this.placeholder = 'Cover Letter'" required=""></textarea>
-						<button class="primary-btn mt-20">Submit<span class="lnr lnr-arrow-right"></span></button>
+						<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''"
+						    onblur="this.placeholder = 'Messege'" required=""></textarea>
+						<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
 						<div class="alert-msg">
 						</div>
 					</div>
