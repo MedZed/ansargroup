@@ -51,7 +51,7 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -568,6 +568,8 @@ td, th {
 
 .text-white {
   color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .text-black {
@@ -1908,8 +1910,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  /* color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1); */
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background-color: #e5e416;
+  padding: 7px 1px;
 }
 
 .navbar-nav a {
@@ -1918,7 +1925,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 20px;
   font-size: 22px;
-  font-family: 'Lobster', Courier, monospace;
+  font-family: 'Lobster Two', Courier, monospace;
+}
+
+.lang{
+  background-color: #ece810;
+  padding: 3px 10px !important;
+  margin: 10px !important;
+  border-radius: 20px !important;
+  font-family: Poppins !important;
+  font-size: 15px !important;
+  color: black !important;
 }
 
 @media (max-width: 992px) {
@@ -1932,6 +1949,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
   }
 }
+
+
 
 .section-gap {
   padding-top: 90px;
@@ -2300,15 +2319,8 @@ color: #ffff;
 }
 .header-btn:hover {
   border: 1px solid #fff;
-  /* background: transparent; */
-  /* color: #fff; */
-  background: url(../img/visit.png) no-repeat center center/cover;
+  background: url(../img/internet.png) no-repeat center center/cover;
 }
-
-
-
-
-
 .info-area .info-thumb {
   overflow: hidden;
   display: inline-block;
@@ -2652,11 +2664,12 @@ color: #191919;
   text-align: center;
 }
 
-.sfmap:hover{
-  background: url(../img/sfcmap.png) no-repeat center center/cover;
-  background-color: #000;
+/* .sfmap:hover{
+
   
 }
+ */
+
 .single-contact-info h6 {
   text-transform: uppercase;
 }
@@ -2925,6 +2938,9 @@ color: #cccccc;
   line-height: 1.2em;
   margin-bottom: 20px;
 }
+.generic-banner .generic-banner-content h2 {
+font-weight: 
+}
 
 @media (max-width: 991px) {
   .generic-banner .generic-banner-content h2 br {
@@ -2974,9 +2990,6 @@ color: #cccccc;
 
 .switch-wrap p {
   margin: 0;
-}
-.text-success{
-  color:#b9d732 !important;
 }
 
 
