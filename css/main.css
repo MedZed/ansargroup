@@ -1913,10 +1913,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav a {
-  text-transform: uppercase;
-  font-weight: 600;
+  text-transform: capitalize;
+  /* font-weight: 600; */
   color: #fff;
   padding: 20px;
+  font-size: 22px;
+  font-family: 'Lobster', Courier, monospace;
 }
 
 @media (max-width: 992px) {
@@ -2243,22 +2245,69 @@ color: #ffff;
 }
 
 .header-btn {
-  background-color: #fff;
-  padding: 8px 40px;
+  /* background-color: #fff; */
+  /* padding: 8px 40px; */
+  width:7vw;
+  padding-top: 7vw;
+
+  border-radius: 50%;
   font-weight: 600;
   color: #222;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin-top: 30px;
   display: inline-block;
 }
-
+@media (max-width: 414px) {
+  .header-btn {
+    /* background-color: #fff; */
+    /* padding: 8px 40px; */
+    width:15vw;
+    padding-top: 15vw;
+  
+    border-radius: 50%;
+    font-weight: 600;
+    color: #222;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    /* border-radius: 20px; */
+    margin-top: 30px;
+    display: inline-block;
+  }
+}
+.qlogos_ag{
+  background: url(../img/ag.png) no-repeat center center/150%;
+}
+.qlogos_ac{
+  background: url(../img/ac.png) no-repeat center center/150%;
+}
+.qlogos_nw{
+  background: url(../img/nw.png) no-repeat center center/150%;
+}
+.qlogos_dc{
+  background: url(../img/dc.png) no-repeat center center/150%;
+}
+.qlogos_ah{
+  background: url(../img/ah.png) no-repeat center center/150%;
+}
+.qlogos_am{
+  background: url(../img/am.png) no-repeat center center/150%;
+}
+.row-sites .col-md-4{
+  padding: 0 !important;
+  margin: 0 !important;
+}
 .header-btn:hover {
   border: 1px solid #fff;
-  background: transparent;
-  color: #fff;
+  /* background: transparent; */
+  /* color: #fff; */
+  background: url(../img/visit.png) no-repeat center center/cover;
 }
+
+
+
+
 
 .info-area .info-thumb {
   overflow: hidden;
@@ -2471,7 +2520,7 @@ color: #191919;
 
 .gallery-area .lnr-arrow-up, .gallery-area .lnr-arrow-down {
   background-color: white;
-  box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
+  box-shadow: -14.142px 14.142px 20px 0px rgba(38, 38, 38, 0.2);
   padding: 14px;
   color: #000;
   font-weight: 500;
