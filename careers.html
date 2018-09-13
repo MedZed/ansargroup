@@ -94,10 +94,13 @@
 	<section class="contact-area section-gap" id="careers">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h4>Just drop us your Resume, Remember to mention your position.</h4><br>
+				<div class="col-md-12 generic-blockquote">
+					<p style="text-align: justify;">With one of the outstanding portfolios in the Middle East, Ansar Group of Companies offers you the chance to be the part of a company thats shaping the future of retail in Middle East (Bahrain, Qatar and United Arab Emirates) & beyond. Ansar Group of Companies has a reputation for innovation and excellence and offers careers across many disciplines including retails management, sales, finance and marketing. We deliver exciting career paths for people who are passionate about success, community and working in a high-paced global retail industry.</p>
 				</div>
-				
+				<div class="col-md-12">
+				</br></br>
+					<h4>Just drop us your Resume, Remember to mention your position.</h4><br>
+				</div>				
 			</div>
 			<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
 				<div class="row">
@@ -106,18 +109,19 @@
 						    class="common-input mb-20 form-control" required="" type="text">
 
 						<input name="email" placeholder="Enter your email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-						    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" class="common-input mb-20 form-control"
+						    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" class="try common-input mb-20 form-control"
 						    required="" type="email">
-
-						<input name="subject" placeholder="Enter your mobile" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your mobile'"
-						    class="common-input mb-20 form-control" required="" type="text">
-						<input name="subject" placeholder="Enter your position" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your position'"
-						    class="common-input mb-20 form-control" required="" type="text">
 					</div>
 					<div class="col-lg-6 form-group">
-						<input type="file" name="Resume" accept="application/pdf,application/vnd.ms-excel" class="common-input mb-20 form-control" required="" type="text">
-						<textarea class="common-textarea mt-10 form-control" name="letter" placeholder="Cover Letter" onfocus="this.placeholder = ''"
-						    onblur="this.placeholder = 'Cover Letter'" required=""></textarea>
+						<select name="subject" class="form-select common-input mb-30 form-control"  required >
+							<option value="">Select your Position</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Heavy Driver">Heavy Driver</option>
+                            <option value="Sales Man">Sales Man</option>
+                            <option value="Shelf Stalker">Shelf Stalker</option>
+                            <option value="Others">Other</option>
+						</select>
+						<input type="file" name="Resume" accept="application/pdf,application/vnd.ms-excel" class="common-input form-control" required="" type="text">
 						<button class="primary-btn mt-20">Submit<span class="lnr lnr-arrow-right"></span></button>
 						<div class="alert-msg">
 						</div>
