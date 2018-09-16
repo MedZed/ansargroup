@@ -1,8 +1,8 @@
 <?php
     $to = 'web@ansargallery.com';
-    $firstname = $_POST["fname"];
+    $name = $_POST["name"];
     $email= $_POST["email"];
-    $text= $_POST["message"];
+    $text= $_POST["subject"];
     $phone= $_POST["phone"];
     
 
@@ -13,7 +13,7 @@
 
     $message ='<table style="width:100%">
         <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
+            <td>'.$name.'</td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
@@ -27,5 +27,6 @@
     }else{
         echo 'failed';
     }
+    header("Location: ./contact.html");
 
 ?>
