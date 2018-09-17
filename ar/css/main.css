@@ -594,7 +594,7 @@ th {
 .text-white {
   color: #fff;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .text-black {
@@ -2825,7 +2825,7 @@ hr {
 .single-faq h2 {
   font-size: 18px;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   margin-top: 15px;
   margin-bottom: 25px;
 }
@@ -2868,7 +2868,7 @@ hr {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 10px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
 }
 
 .video-area .video-content h4 {
